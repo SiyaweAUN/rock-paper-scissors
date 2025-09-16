@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:whitesmoke;
+    font-family: 'Arial', sans-serif;
+    background-color:#333333;
+}
+
+.container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+    border: 5px solid  #D35400;
+    background-color: #2E3A46;
+}
+
+.mainText{
+    font-size: 30px;
+    color: gold;
+    font-weight: bold;
+    font-style:italic;
+    text-shadow: 2px 2px 4px #000000;
+}
+.title{
+    border:2px solid #D35400;
+    border-radius:5%;
+    padding:20px;
+    margin:20px;
+}
+.scores{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    gap: 10px;
+    padding:10px;
+    margin:10px;
+}
+.rules{
+    padding:10px;
+    margin:10px;
+}
+
+button{
+    background-color:#D35400;
+    color:blue;
+    border-radius:5%;
+    padding:10px;
+}
+.winnerMessage{
+    font-size: 20px;
+    color: #D35400;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.mainText:hover{
+ box-shadow: 0 0 10px #D35400;
+    text-decoration: underline;
+    cursor:pointer;
+}
+button:hover{
+    background-color: #E67E22;
+    color: white;
+    cursor: pointer;
+}
+.rules:hover{
+    background-color: #D35400;
+    color: white;
+    cursor: pointer;
+}
